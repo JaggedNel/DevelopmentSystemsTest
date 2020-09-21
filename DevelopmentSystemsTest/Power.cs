@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Возведение числа в указанную степень.
+    /// </summary>
     class Power : Plugin
     {
         public Power() : base("Power", "1.0", System.Drawing.Image.FromFile("Pow.jpg"), "Rising an integer to the power.") { }

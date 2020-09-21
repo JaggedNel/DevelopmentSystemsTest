@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Получение логарифма числа указанного основания. При некорректных данных возвращает 0.
+    /// </summary>
     class Log : Plugin
     {
         public Log() : base("Log", "1.0", System.Drawing.Image.FromFile("Log.jpg"), "Logarithm of integer on basis.") { }

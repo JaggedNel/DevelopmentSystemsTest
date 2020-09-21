@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Получение среднего двух чисел.
+    /// </summary>
     class Average : Plugin
     {
         public Average() : base("Average", "1.0", System.Drawing.Image.FromFile("Average.jpg"), "Avetage of two integers") { }

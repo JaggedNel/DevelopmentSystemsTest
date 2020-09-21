@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Разность двух чисел.
+    /// </summary>
     class Subtraction : Plugin
     {
         public Subtraction() : base("Subtraction", "1.0", System.Drawing.Image.FromFile("Subtraction.jpg"), "Difference between two integers.") { }

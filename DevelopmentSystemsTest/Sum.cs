@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Сумма двух чисел.
+    /// </summary>
     class Sum : Plugin
     {
         public Sum() : base("Sum", "1.0", System.Drawing.Image.FromFile("Sum.jpg"), "Sums two integers.") { }

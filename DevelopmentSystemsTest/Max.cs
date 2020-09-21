@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Получение максимального из двух чисел.
+    /// </summary>
     class Max : Plugin
     {
         public Max() : base("Max", "1.0", System.Drawing.Image.FromFile("Max.jpg"), "Maximum of two integers.") { }

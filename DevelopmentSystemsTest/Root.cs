@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Вычисление корня числа указанной степени. При некорректных данных возвращает 0 или -1 в случае  отрицательной нечётной степени и отрицательного числа.
+    /// </summary>
     class Root : Plugin
     {
         public Root() : base("Root", "1.0", System.Drawing.Image.FromFile("Root.jpg"), "Root of an integer of a degree.") { }
